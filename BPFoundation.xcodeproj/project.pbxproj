@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D30AC393165D72B20030659A /* NSBundle+BPFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D30AC388165D72B20030659A /* NSBundle+BPFoundation.m */; };
+		D30AC394165D72B20030659A /* NSDictionary+BPFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D30AC38A165D72B20030659A /* NSDictionary+BPFoundation.m */; };
+		D30AC395165D72B20030659A /* NSJSONSerialization+BPFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D30AC38C165D72B20030659A /* NSJSONSerialization+BPFoundation.m */; };
+		D30AC396165D72B20030659A /* NSSet+BPFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D30AC38E165D72B20030659A /* NSSet+BPFoundation.m */; };
+		D30AC397165D72B20030659A /* NSString+BPFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D30AC390165D72B20030659A /* NSString+BPFoundation.m */; };
+		D30AC398165D72B20030659A /* NSURL+BPFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D30AC392165D72B20030659A /* NSURL+BPFoundation.m */; };
 		D3966E75165D70E100B6D54E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3966E74165D70E100B6D54E /* Foundation.framework */; };
 		D3966E7A165D70E100B6D54E /* BPFoundation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3966E79165D70E100B6D54E /* BPFoundation.h */; };
+		D3B4C1D3165D74B800EEDEF2 /* BPGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B4C1D2165D74B800EEDEF2 /* BPGeometry.m */; };
+		D3B4C1D6165D752700EEDEF2 /* BPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B4C1D5165D752700EEDEF2 /* BPConstants.m */; };
+		D3B4C1D9165D781800EEDEF2 /* NSMutableDictionary+BPFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B4C1D8165D781800EEDEF2 /* NSMutableDictionary+BPFoundation.m */; };
+		D3B4C1DC165D789200EEDEF2 /* NSMutableArray+BPFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B4C1DB165D789200EEDEF2 /* NSMutableArray+BPFoundation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +35,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D30AC387165D72B20030659A /* NSBundle+BPFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+BPFoundation.h"; sourceTree = "<group>"; };
+		D30AC388165D72B20030659A /* NSBundle+BPFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+BPFoundation.m"; sourceTree = "<group>"; };
+		D30AC389165D72B20030659A /* NSDictionary+BPFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BPFoundation.h"; sourceTree = "<group>"; };
+		D30AC38A165D72B20030659A /* NSDictionary+BPFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BPFoundation.m"; sourceTree = "<group>"; };
+		D30AC38B165D72B20030659A /* NSJSONSerialization+BPFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+BPFoundation.h"; sourceTree = "<group>"; };
+		D30AC38C165D72B20030659A /* NSJSONSerialization+BPFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+BPFoundation.m"; sourceTree = "<group>"; };
+		D30AC38D165D72B20030659A /* NSSet+BPFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+BPFoundation.h"; sourceTree = "<group>"; };
+		D30AC38E165D72B20030659A /* NSSet+BPFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+BPFoundation.m"; sourceTree = "<group>"; };
+		D30AC38F165D72B20030659A /* NSString+BPFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BPFoundation.h"; sourceTree = "<group>"; };
+		D30AC390165D72B20030659A /* NSString+BPFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BPFoundation.m"; sourceTree = "<group>"; };
+		D30AC391165D72B20030659A /* NSURL+BPFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+BPFoundation.h"; sourceTree = "<group>"; };
+		D30AC392165D72B20030659A /* NSURL+BPFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+BPFoundation.m"; sourceTree = "<group>"; };
 		D3966E71165D70E100B6D54E /* libBPFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBPFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3966E74165D70E100B6D54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3966E78165D70E100B6D54E /* BPFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BPFoundation-Prefix.pch"; sourceTree = "<group>"; };
 		D3966E79165D70E100B6D54E /* BPFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPFoundation.h; sourceTree = "<group>"; };
+		D3B4C1D1165D74B800EEDEF2 /* BPGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPGeometry.h; sourceTree = "<group>"; };
+		D3B4C1D2165D74B800EEDEF2 /* BPGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPGeometry.m; sourceTree = "<group>"; };
+		D3B4C1D4165D752700EEDEF2 /* BPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPConstants.h; sourceTree = "<group>"; };
+		D3B4C1D5165D752700EEDEF2 /* BPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPConstants.m; sourceTree = "<group>"; };
+		D3B4C1D7165D781800EEDEF2 /* NSMutableDictionary+BPFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+BPFoundation.h"; sourceTree = "<group>"; };
+		D3B4C1D8165D781800EEDEF2 /* NSMutableDictionary+BPFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+BPFoundation.m"; sourceTree = "<group>"; };
+		D3B4C1DA165D789200EEDEF2 /* NSMutableArray+BPFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+BPFoundation.h"; sourceTree = "<group>"; };
+		D3B4C1DB165D789200EEDEF2 /* NSMutableArray+BPFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+BPFoundation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +101,7 @@
 		D3966E76165D70E100B6D54E /* BPFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				D3B4C1D0165D74A400EEDEF2 /* Misc */,
 				D3966E82165D712900B6D54E /* Categories */,
 				D3966E79165D70E100B6D54E /* BPFoundation.h */,
 				D3966E77165D70E100B6D54E /* Supporting Files */,
@@ -89,8 +120,35 @@
 		D3966E82165D712900B6D54E /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				D30AC387165D72B20030659A /* NSBundle+BPFoundation.h */,
+				D30AC388165D72B20030659A /* NSBundle+BPFoundation.m */,
+				D30AC389165D72B20030659A /* NSDictionary+BPFoundation.h */,
+				D30AC38A165D72B20030659A /* NSDictionary+BPFoundation.m */,
+				D30AC38B165D72B20030659A /* NSJSONSerialization+BPFoundation.h */,
+				D30AC38C165D72B20030659A /* NSJSONSerialization+BPFoundation.m */,
+				D3B4C1DA165D789200EEDEF2 /* NSMutableArray+BPFoundation.h */,
+				D3B4C1DB165D789200EEDEF2 /* NSMutableArray+BPFoundation.m */,
+				D3B4C1D7165D781800EEDEF2 /* NSMutableDictionary+BPFoundation.h */,
+				D3B4C1D8165D781800EEDEF2 /* NSMutableDictionary+BPFoundation.m */,
+				D30AC38D165D72B20030659A /* NSSet+BPFoundation.h */,
+				D30AC38E165D72B20030659A /* NSSet+BPFoundation.m */,
+				D30AC38F165D72B20030659A /* NSString+BPFoundation.h */,
+				D30AC390165D72B20030659A /* NSString+BPFoundation.m */,
+				D30AC391165D72B20030659A /* NSURL+BPFoundation.h */,
+				D30AC392165D72B20030659A /* NSURL+BPFoundation.m */,
 			);
 			name = Categories;
+			sourceTree = "<group>";
+		};
+		D3B4C1D0165D74A400EEDEF2 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				D3B4C1D4165D752700EEDEF2 /* BPConstants.h */,
+				D3B4C1D5165D752700EEDEF2 /* BPConstants.m */,
+				D3B4C1D1165D74B800EEDEF2 /* BPGeometry.h */,
+				D3B4C1D2165D74B800EEDEF2 /* BPGeometry.m */,
+			);
+			name = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +202,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30AC393165D72B20030659A /* NSBundle+BPFoundation.m in Sources */,
+				D30AC394165D72B20030659A /* NSDictionary+BPFoundation.m in Sources */,
+				D30AC395165D72B20030659A /* NSJSONSerialization+BPFoundation.m in Sources */,
+				D30AC396165D72B20030659A /* NSSet+BPFoundation.m in Sources */,
+				D30AC397165D72B20030659A /* NSString+BPFoundation.m in Sources */,
+				D30AC398165D72B20030659A /* NSURL+BPFoundation.m in Sources */,
+				D3B4C1D3165D74B800EEDEF2 /* BPGeometry.m in Sources */,
+				D3B4C1D6165D752700EEDEF2 /* BPConstants.m in Sources */,
+				D3B4C1D9165D781800EEDEF2 /* NSMutableDictionary+BPFoundation.m in Sources */,
+				D3B4C1DC165D789200EEDEF2 /* NSMutableArray+BPFoundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +308,7 @@
 				D3966E81165D70E100B6D54E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
