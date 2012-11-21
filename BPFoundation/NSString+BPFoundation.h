@@ -21,6 +21,12 @@
 // Parses a hex string (0xABCDEF or #ABCDEF) into a numeric value.
 - (int)bp_hexValue;
 
+// Returns the last component of this string separated by componentSeparators.
+- (NSString *)bp_lastComponent:(NSCharacterSet *)componentSeparators;
+
+// Returns a copy of this string with the last component truncated.
+- (NSString *)bp_stringByRemovingLastComponent:(NSCharacterSet *)componentSeparators;
+
 #pragma mark - URL Encoding
 
 // These methods are taken directly from MKNetworkKit. Big Thanks!

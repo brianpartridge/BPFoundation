@@ -29,6 +29,22 @@
     return result;
 }
 
+- (NSString *)bp_lastComponent:(NSCharacterSet *)componentSeparators {
+    NSArray *components = [self componentsSeparatedByCharactersInSet:componentSeparators];
+    return (components.count == 1) ? @"" : [components lastObject];
+}
+
+- (NSString *)bp_stringByRemovingLastComponent:(NSCharacterSet *)componentSeparators {
+    NSString *lastComponent = [self bp_lastComponent:componentSeparators];
+    NSRange range = [self rangeOfString:lastComponent options:NSBackwardsSearch];
+    if (range.location == NSNotFound) {
+        return [self copy];
+    } else {
+        return [[self stringByReplacingCharactersInRange:range withString:@""]
+                stringByTrimmingCharactersInSet:componentSeparators];
+    }
+}
+
 - (NSString *)bp_urlEncodedString {
     
     CFStringRef encodedCFString = CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault, 
