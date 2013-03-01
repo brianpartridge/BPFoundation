@@ -13,6 +13,7 @@
 		D30AC396165D72B20030659A /* NSSet+BPFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D30AC38E165D72B20030659A /* NSSet+BPFoundation.m */; };
 		D30AC397165D72B20030659A /* NSString+BPFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D30AC390165D72B20030659A /* NSString+BPFoundation.m */; };
 		D30AC398165D72B20030659A /* NSURL+BPFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D30AC392165D72B20030659A /* NSURL+BPFoundation.m */; };
+		D34C0A5916E04BE800AAFB93 /* BPBonjourBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = D34C0A5816E04BE800AAFB93 /* BPBonjourBrowser.m */; };
 		D3966E75165D70E100B6D54E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3966E74165D70E100B6D54E /* Foundation.framework */; };
 		D3966E7A165D70E100B6D54E /* BPFoundation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3966E79165D70E100B6D54E /* BPFoundation.h */; };
 		D3B4C1D3165D74B800EEDEF2 /* BPGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B4C1D2165D74B800EEDEF2 /* BPGeometry.m */; };
@@ -47,6 +48,8 @@
 		D30AC390165D72B20030659A /* NSString+BPFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BPFoundation.m"; sourceTree = "<group>"; };
 		D30AC391165D72B20030659A /* NSURL+BPFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+BPFoundation.h"; sourceTree = "<group>"; };
 		D30AC392165D72B20030659A /* NSURL+BPFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+BPFoundation.m"; sourceTree = "<group>"; };
+		D34C0A5716E04BE800AAFB93 /* BPBonjourBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPBonjourBrowser.h; sourceTree = "<group>"; };
+		D34C0A5816E04BE800AAFB93 /* BPBonjourBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPBonjourBrowser.m; sourceTree = "<group>"; };
 		D3966E71165D70E100B6D54E /* libBPFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBPFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3966E74165D70E100B6D54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3966E78165D70E100B6D54E /* BPFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BPFoundation-Prefix.pch"; sourceTree = "<group>"; };
@@ -73,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D34C0A5616E04BDE00AAFB93 /* Bonjour */ = {
+			isa = PBXGroup;
+			children = (
+				D34C0A5716E04BE800AAFB93 /* BPBonjourBrowser.h */,
+				D34C0A5816E04BE800AAFB93 /* BPBonjourBrowser.m */,
+			);
+			name = Bonjour;
+			sourceTree = "<group>";
+		};
 		D3966E66165D70E100B6D54E = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		D3966E76165D70E100B6D54E /* BPFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				D34C0A5616E04BDE00AAFB93 /* Bonjour */,
 				D3B4C1D0165D74A400EEDEF2 /* Misc */,
 				D3966E82165D712900B6D54E /* Categories */,
 				D3966E79165D70E100B6D54E /* BPFoundation.h */,
@@ -212,6 +225,7 @@
 				D3B4C1D6165D752700EEDEF2 /* BPConstants.m in Sources */,
 				D3B4C1D9165D781800EEDEF2 /* NSMutableDictionary+BPFoundation.m in Sources */,
 				D3B4C1DC165D789200EEDEF2 /* NSMutableArray+BPFoundation.m in Sources */,
+				D34C0A5916E04BE800AAFB93 /* BPBonjourBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

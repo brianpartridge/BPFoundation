@@ -30,4 +30,8 @@
 #import "NSString+BPFoundation.h"
 #import "NSURL+BPFoundation.h"
 
+#pragma mark - Misc
+
+#import "BPBonjourBrowser.h"
+
 #endif // BPFOUNDATION
